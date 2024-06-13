@@ -2,6 +2,7 @@
 
 Структура базы:
 
+`code
 CREATE TABLE `uts_doctemplates`  (
   `id` int NOT NULL AUTO_INCREMENT,
   `type` int NOT NULL COMMENT 'тип документа 1-заявление, 2-приказ о зачислении, 3-приказ об отчислении, 4-приказ об окончании курса',
