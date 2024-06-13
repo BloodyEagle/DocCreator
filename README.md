@@ -2,8 +2,7 @@
 
 Структура базы:
 
-<code>
-CREATE TABLE `uts_doctemplates`  (
+<pre>CREATE TABLE `uts_doctemplates`  (
   `id` int NOT NULL AUTO_INCREMENT,
   `type` int NOT NULL,
   `replacetype` varchar(10) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
@@ -12,4 +11,4 @@ CREATE TABLE `uts_doctemplates`  (
   `replace` text CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci;
-</code>
+</pre>
